@@ -27,13 +27,13 @@ public:
 	}
 };
 
-int myValue = 10;        // First definition as variable
-void myValue ();        // C2365: redefinition; previous was 'variable'
+int myValue = 10;      
+void myValue ();        
 
-extern int data[10];     // Forward declaration with 10 elements
+extern int data[10];   
 int data[20];
 
-extern int value;        // Non-const declaration
+extern int value;    
 const int value = 5;
 
 int main()
